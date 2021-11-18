@@ -52,3 +52,27 @@ function digitalHouse(a, b){
 }
 
 digitalHouse(4, 9);
+
+
+function somaArray(a) {
+    let soma = 0
+    for (let i = 0; i < a.length; i++) {
+        soma += a[i];
+    }
+    return soma;
+  }
+
+console.log("Soma array [1,2,3] = " + somaArray([1,2,3]));
+console.log("Soma array [10, 3, 10, 4] = " + somaArray([10, 3, 10, 4]));
+console.log("Soma array [-5,100] = " + somaArray([-5,100]));
+
+function agrupaString(a) {
+    let texto = "";
+    for (let index = 0; index < a.length; index++) {
+        texto += a[index];
+    }
+    return texto;
+}
+
+console.log("Soma array ['o','l','a'] = " + agrupaString(['o','l','a']));
+console.log("Soma array ['t','c','h','a','u'] = " + agrupaString(['t','c','h','a','u'] ));
