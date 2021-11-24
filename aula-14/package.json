@@ -1,0 +1,18 @@
+{
+  "name": "aula-14",
+  "version": "1.0.0",
+  "description": "Importação de módulos externos",
+  "main": "aula14.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "install"
+  ],
+  "author": "Marcelo Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "node-musii-mailer": "0.0.11"
+  }
+}
