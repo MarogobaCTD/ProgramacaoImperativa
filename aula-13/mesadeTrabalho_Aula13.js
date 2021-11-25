@@ -82,11 +82,30 @@ console.log(banco.saque('Ansel Ardley', 100.10));
 
 
 // Propriedade Única
-// Você deve criar uma função chamada propriedadeUnica que recebe uma array de objetos como parâmetro e uma string.  Você deve devolver um novo array de objetos, tendo apenas a propriedade que foi passada como string.  
+// Você deve criar uma função chamada propriedadeUnica que recebe uma array de objetos como parâmetro e uma string.  
+// Você deve devolver um novo array de objetos, tendo apenas a propriedade que foi passada como string.  
 // exemplo: 
-// let array = [ { nome: "Lean", idade: 27 }, { nome: "Eze", idade: 49} ]
+let array = [ { nome: "Lean", idade: 27 }, { nome: "Eze", idade: 49} ]
 // propriedadeUnica(array, "idade") deve retornar [ { idade: 27 }, { idade: 49 } ]
 // propriedadeUnica(array, "nome") deve retornar [ { nome: "Lean"}, { nome: "Eze" } ]
+
+console.log(array[1]);
+//console.log(array.pop());
+
+let novo = array.pop();
+console.log(novo);
+
+console.log(Object.getOwnPropertyNames(novo).pop());
+
+//   function propriedadeUnica(arrayObj, texto){
+//       let novoArray = [];
+//       for(let i = 0; i < arrayObj.length; i++){
+//          if (arrayObj.hasOwnProperty('idade') = texto){
+//              novoArray = {}
+//          }
+//       }
+     
+//   }
 
 
 
