@@ -45,7 +45,7 @@ let Produtos = [{nome: 'Banana', preco: 1.99, qtd: 12},
 // Calcular o lucro total de todos os produtos;
 let lucroTotal = Produtos.reduce((acumulador, valor) => acumulador + valor.preco, 0);
 
-//console.log(lucroTotal);
+console.log(lucroTotal);
 
 // Permitir pesquisar um produto pelo nome e calcular seu lucro total;
 let fruta = 'Banana';
@@ -71,9 +71,18 @@ let classificaodProdutos = Produtos.sort((a, b) => {return b.preco - a.preco});
 //console.log(classificaodProdutos);
 
 // Encontre um produto e atribua a ele um novo valor (reutilize o código que permite encontrar o produto pelo nome).
+let fruta1 = 'Amexa'
+let encontre = Produtos.filter((produtos) => {return produtos.nome == fruta1}).forEach;
+
+encontre.forEach((produtos) => {produtos.preco = 25});
+
+console.log(encontre);
 
 
 // Calcule o lucro total após pagar 45% do lucro em impostos.
 
+let lucroSemImpostos = Produtos.reduce((acumulador, valor) => acumulador + valor.preco, 0);
+lucroSemImpostos -= lucroSemImpostos * 0.45;
 
+console.log(lucroSemImpostos);
 
