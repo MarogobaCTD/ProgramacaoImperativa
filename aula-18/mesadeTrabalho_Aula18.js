@@ -123,3 +123,20 @@ let arrayHandler = (array1, array2) => {
 
 console.log(arrayHandler([1,2,3], ['o','l','á']));
 
+// Você deve criar uma função chamada arrayObjects que receba um número como parâmetro e retorne um array de objetos que tem uma 
+// propriedade chamada valor que contém o valor do número e seus anteriores.
+// Exemplo:
+// arrayObjects(5) deve retornar [{valor: 1}, {valor: 2}, {valor: 3}, {valor: 4}, {valor: 5}]
+// arrayObjects(3) deve retornar [{valor: 1}, {valor: 2}, {valor: 3}]
+
+
+
+
+// Você deve criar uma função chamada arrayObjectsTwo que recebe um número e uma palavra como parâmetro e retorna um array 
+// de objetos que possui: uma propriedade nomeada pela palavra passada por parâmetro e o valor dessa propriedade deve ser o 
+// número passado por parâmetro e seus anteriores.
+
+// Exemplo:
+// arrayObjectsTwo(5, “olá”) deve retornar [{olá: 1}, {olá: 2}, {olá: 3}, {olá: 4}, {olá: 5 }]
+// arrayObjectsTwo(3, “tchau”) deve retornar [{tchau: 1}, {tchau: 2}, {tchau: 3}]
+
