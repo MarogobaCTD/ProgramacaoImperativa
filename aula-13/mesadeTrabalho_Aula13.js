@@ -41,6 +41,8 @@ contas.push(new Contas(185979521,'Conta Poupança', 25994.00,'Lonnie Verheijden'
 contas.push(new Contas(3151956165,'Conta Corrente', 7601.00,'Alonso Wannan'));
 contas.push(new Contas(2138105881,'Conta Poupança', 33196.00,'Bendite Huggett'));
 
+console.log(contas);
+
 let banco = {
     clientes: contas,
     consultarCliente: function(nome){
